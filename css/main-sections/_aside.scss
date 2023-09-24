@@ -1,0 +1,13 @@
+aside {
+    grid-row: 1/4;
+    grid-column: 2/3;
+    border: solid 5px yellow;
+    color: yellow;
+    margin: 5px 5px;
+
+    section {
+        margin: 5px;
+        border: solid 5px blue;
+        color: blue;
+    }
+}

@@ -1,0 +1,13 @@
+.section01 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin: 5px 5px;
+    border: solid 5px yellow;
+    color: yellow;
+
+    article {
+        border: solid 5px blue;
+        color: blue;
+        margin: 5px 5px;
+    }
+}

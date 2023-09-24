@@ -1,0 +1,16 @@
+main {
+    font-size: 0.8rem;
+    display: grid;
+    grid-template-columns: 1fr 35%;
+    grid-template-rows: 40px 1fr 100px;
+    color: green;
+    background-color: black;
+    border: solid 5px green;
+    padding: 5px;
+    gap: 5px;
+}
+
+h1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}

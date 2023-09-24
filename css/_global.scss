@@ -1,0 +1,15 @@
+* {
+
+    margin: 0px;
+
+
+}
+
+body {
+    background-color: blue;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 1fr 70px;
+    gap: 10px;
+}

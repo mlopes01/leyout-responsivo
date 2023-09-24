@@ -1,0 +1,47 @@
+@media (max-width: 700px) {
+    html {
+        font-size: 0.8rem;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 20px 1fr 100px auto;
+
+        h2,
+        h3 {
+            display: none;
+        }
+    }
+
+    h1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .section01 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 1fr;
+        overflow-x: scroll;
+    }
+
+    .section01 article {
+        min-width: 300px;
+    }
+
+    aside {
+        grid-column: 1/2;
+        grid-row: 4/5;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 1fr;
+        overflow-x: scroll;
+    }
+
+    aside section {
+        min-width: 300px;
+    }
+}
